@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: c1dbb3252bf29415e91ae639c6840ff8
+timeCreated: 1467037103
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Camera
+    100004: Crystal_1
+    100006: Crystal_2
+    100008: Crystal_3
+    100010: Crystal_4
+    100012: Crystal_Set_1
+    100014: Crystal_Set_2
+    100016: Crystal_Set_3
+    100018: Crystal_Set_4
+    100020: Cube
+    100022: Cube.001
+    100024: Cube.002
+    100026: Cube.003
+    100028: Lamp
+    100030: Lamp.001
+    100032: Lamp.002
+    100034: Lamp.003
+    100036: Suzanne
+    400000: //RootNode
+    400002: Camera
+    400004: Crystal_1
+    400006: Crystal_2
+    400008: Crystal_3
+    400010: Crystal_4
+    400012: Crystal_Set_1
+    400014: Crystal_Set_2
+    400016: Crystal_Set_3
+    400018: Crystal_Set_4
+    400020: Cube
+    400022: Cube.001
+    400024: Cube.002
+    400026: Cube.003
+    400028: Lamp
+    400030: Lamp.001
+    400032: Lamp.002
+    400034: Lamp.003
+    400036: Suzanne
+    2300000: //RootNode
+    2300002: Crystal_1
+    2300004: Crystal_2
+    2300006: Crystal_3
+    2300008: Crystal_4
+    2300010: Crystal_Set_1
+    2300012: Crystal_Set_2
+    2300014: Crystal_Set_3
+    2300016: Crystal_Set_4
+    2300018: Cube
+    2300020: Cube.001
+    2300022: Cube.002
+    2300024: Cube.003
+    2300026: Suzanne
+    3300000: //RootNode
+    3300002: Crystal_1
+    3300004: Crystal_2
+    3300006: Crystal_3
+    3300008: Crystal_4
+    3300010: Crystal_Set_1
+    3300012: Crystal_Set_2
+    3300014: Crystal_Set_3
+    3300016: Crystal_Set_4
+    3300018: Cube
+    3300020: Cube.001
+    3300022: Cube.002
+    3300024: Cube.003
+    3300026: Suzanne
+    4300000: Cube.005
+    4300002: Crystal_1
+    4300004: Suzanne
+    4300006: Crystal_4
+    4300008: Crystal_3
+    4300010: Crystal_2
+    4300012: Cube.001
+    4300014: Cube
+    4300016: Cube.002
+    4300018: Cube.003
+    4300020: Crystal_Set_1
+    4300022: Crystal_Set_2
+    4300024: Crystal_Set_3
+    4300026: Crystal_Set_4
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
