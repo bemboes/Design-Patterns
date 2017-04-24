@@ -1,0 +1,10 @@
+lastUpgrade=00935
+proj.pluginVersion=0.9.35
+proj.AppId=1073764505739
+and.BundleId=com.colorblind.cave
+proj.classDir=Assets
+proj.ConstantsClassName=CaveRunnersResources
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3cstring+name%3d%22app_id%22%3e1073764505739%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22%3ecom.colorblind.cave%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_joining_cave_runners%22%3eCgkIi7HoiqAfEAIQAQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_shatter_crystals%22%3eCgkIi7HoiqAfEAIQAg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_ressurection%22%3eCgkIi7HoiqAfEAIQAw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_gem_collector%22%3eCgkIi7HoiqAfEAIQBA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_finished_tutorial%22%3eCgkIi7HoiqAfEAIQBQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_weekly_leaderboards%22%3eCgkIi7HoiqAfEAIQBg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_1%22%3eCgkIi7HoiqAfEAIQBw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_2%22%3eCgkIi7HoiqAfEAIQCA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_3%22%3eCgkIi7HoiqAfEAIQCQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_4%22%3eCgkIi7HoiqAfEAIQCg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_5%22%3eCgkIi7HoiqAfEAIQCw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_6%22%3eCgkIi7HoiqAfEAIQDA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_level_7%22%3eCgkIi7HoiqAfEAIQDQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e%0d%0a
+and.ClientId=
+proj.requireGPlus=false
+android.SetupDone=true

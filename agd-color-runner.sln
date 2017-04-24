@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agd-color-runner.CSharp.Plugins", "agd-color-runner.CSharp.Plugins.csproj", "{B9BF2B3C-3576-7825-7092-28D94E893CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agd-color-runner.CSharp", "agd-color-runner.CSharp.csproj", "{708F193E-BB61-E0E7-1FAE-4D45DEBFD4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agd-color-runner.CSharp.Editor", "agd-color-runner.CSharp.Editor.csproj", "{DA17AC35-0D0F-778E-8194-49F5FEF06CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9BF2B3C-3576-7825-7092-28D94E893CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BF2B3C-3576-7825-7092-28D94E893CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BF2B3C-3576-7825-7092-28D94E893CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BF2B3C-3576-7825-7092-28D94E893CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708F193E-BB61-E0E7-1FAE-4D45DEBFD4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708F193E-BB61-E0E7-1FAE-4D45DEBFD4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708F193E-BB61-E0E7-1FAE-4D45DEBFD4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708F193E-BB61-E0E7-1FAE-4D45DEBFD4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA17AC35-0D0F-778E-8194-49F5FEF06CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA17AC35-0D0F-778E-8194-49F5FEF06CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA17AC35-0D0F-778E-8194-49F5FEF06CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA17AC35-0D0F-778E-8194-49F5FEF06CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
