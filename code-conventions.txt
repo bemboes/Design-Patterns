@@ -1,0 +1,40 @@
+================
+Code Conventions
+================
+
+	No egyptian brackets.
+	Yoda statements are not allowed. "if(1 == someVariable)"
+	Variable declaration should always be op top of class.
+	Variables and methods are ordered from desc visibility. (public on top)
+	Interal enums, delegates/events and public readonly always on top.
+	Public getters always come before public top level class properties.
+	Monobehaviours are listed first, then customs methods from public to private.
+	Use properties with getter fields instead of GetMethod() where possible.
+	No Code reviewing or pull-requests during the development cycle.
+
+======================
+Optimizations / Safety
+======================
+
+	Only use public where it is absolutely needed. Avoid if possible.
+	If variables need to be changed from the editor use [SerializeField] not public!
+	Declares methods and top-level variables explicitly private or public.
+	Avoid use of GetComponent and FindComponent/FindGameObject at all costs.
+
+==================
+Naming conventions
+==================
+
+	Use clear and descriptive class, method and variable names.
+	Methods and classes always Capitalized.
+	Local variables camelCase (Vector2 playerPosition).
+	Public variables and getters are named CapitalCase.
+	Top level constants are named with full caps (const int GRID_SIZE).
+	UnityTags are CapitalCase. Never find a tag by string, use a tag class.
+
+=============
+Documentation
+=============
+
+	Describe class and method functionalities with vs <Summary> where needed. Keep it short.
+	Only comment in English.
