@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f540defb5c72447c8abd7727dc5cab0e
+timeCreated: 1478818547
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mBullet: {fileID: 1000013439334644, guid: fe656bdb129874ca7a2ee1f4386d8456, type: 2}
+  - mGunPoint: {instanceID: 0}
+  - shootSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
