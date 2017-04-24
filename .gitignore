@@ -1,0 +1,74 @@
+
+# ===================================== #
+#     CB-RUNNERS: Git ignore file       #
+# ===================================== #
+# ===================================== #
+
+!*.meta
+​!*.sln
+
+# ===================================== #
+#        Unity 5 Generated Files        #
+# ===================================== #
+
+/[Ll]ibrary/
+/[Bb]uilds/
+/[Oo]bj/
+/[Tt]emp/
+/[Uu]nityGenerated/
+
+Assets/StreamingAssets/build_info.txt
+StreamingAssets.meta
+build_info.txt
+
+*.unityproj
+*.userprefs
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+
+.vs/
+
+/[Bb]in
+/[Dd]ebug*/
+/[Rr]elease*/
+
+_ReSharper*/
+ExportedObj/
+
+*.suo
+*.csproj
+*.booproj
+*.pidb
+
+*.user
+*.ilk
+*.svd
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sbr
+
+*.log
+*.bak
+*.cache
+
+sysinfo.txt
+
+# ===================================== #
+#        Operating System Files         #
+# ===================================== #
+
+*.dropbox
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
