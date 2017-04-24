@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5a1cd3235e8232d4a82eaa81645ec6b0
+timeCreated: 1478816640
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shatter: {fileID: 1000013969012338, guid: 4a99ea2655fa26746833a138af9011d2, type: 2}
+  - player: {instanceID: 0}
+  - onePointCrystal: {fileID: 1000011211992282, guid: 8985283525c594a4f88b14c8db0f7bb8,
+      type: 2}
+  - fivePointCrystal: {fileID: 1000010487497658, guid: b6a564f6bdbb3b54ca6b4bd090d87e00,
+      type: 2}
+  - SuperRare: {fileID: 1000010487497658, guid: b6a564f6bdbb3b54ca6b4bd090d87e00,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
