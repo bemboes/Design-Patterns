@@ -65,7 +65,7 @@ public class PlayerCollision : MonoBehaviour
 		sourceDeath = GetComponent<AudioSource> ();
 		Physics.IgnoreLayerCollision (8, 9, true);
         
-        if (!PlayGamesPlatform.Instance.localUser.authenticated) {
+       /* if (!PlayGamesPlatform.Instance.localUser.authenticated) {
 
 			PlayGamesClientConfiguration config = new
            PlayGamesClientConfiguration.Builder ()
@@ -81,47 +81,47 @@ public class PlayerCollision : MonoBehaviour
 			Debug.Log ("Signing in please wait!");
 			PlayGamesPlatform.Instance.Authenticate (SignInCallback, false);
 		}
-        PlayGamesPlatform.Activate();
+        PlayGamesPlatform.Activate();*/
     }
 
-	public void SignInCallback (bool success)
+	/*public void SignInCallback (bool success)
 	{
 		if (success) {
 			Debug.Log ("(Lollygagger) Signed in!");
 		} else {
 			Debug.Log ("(Lollygagger) Sign-in failed...");
 		}
-	}
+	}*/
 
     private void SendScore()
     {
         if (!ScoreSend)
         {
-            if (PlayGamesPlatform.Instance.localUser.authenticated)
-            {
+            //if (PlayGamesPlatform.Instance.localUser.authenticated)
+            //{
                 // Note: make sure to add 'using GooglePlayGames'
-                PlayGamesPlatform.Instance.ReportScore(Score.GetComponent<Score>().score, Leaderboards, (bool success) =>
-                {
+                //PlayGamesPlatform.Instance.ReportScore(Score.GetComponent<Score>().score, Leaderboards, (bool success) =>
+                //{
                     debugtext.text = "Score send!!...." + Score.GetComponent<Score>().score + " " + Leaderboards;
                     StatsMenu.SetActive(true);
-                    getHighScoreFromLeaderboard();
-                    ShowStats();
+                    //getHighScoreFromLeaderboard();
+                    //ShowStats();
                     ScoreSend = true;
                     
-                });
-            }
+                //});
+            //}
         }
     }
 
 	void Start ()
 	{
-        Leaderboards = "CgkIi7HoiqAfEAIQCA";
+        //Leaderboards = "CgkIi7HoiqAfEAIQCA";
         countGems = 0;
 		MaxLives = CurrentLives;
 		MaxPhaseTime = PhaseTime;
 		mRigidBody = GetComponent<Rigidbody> ();
 
-		switch (SceneManager.GetActiveScene ().buildIndex) {
+		/*switch (SceneManager.GetActiveScene ().buildIndex) {
 		case 2:
 			Leaderboards = "CgkIi7HoiqAfEAIQBw";
 			break;
@@ -134,13 +134,13 @@ public class PlayerCollision : MonoBehaviour
 		case 5:
 			Leaderboards = "CgkIi7HoiqAfEAIQCg";
 			break;
-		}
+		}*/
 	}
 
 	void Update ()
 	{
 
-		switch (countGems) {
+		/*switch (countGems) {
 
 		case 1:
 			PlayGamesPlatform.Instance.ReportProgress (
@@ -218,7 +218,7 @@ public class PlayerCollision : MonoBehaviour
 			});
 			break;
 
-		}
+		}*/
 
 
 		mRigidBody.transform.localEulerAngles = new Vector3 (0, 90, 0);
@@ -239,7 +239,7 @@ public class PlayerCollision : MonoBehaviour
         if (CurrentLives <= 0)
         {
             SendScore();
-            getHighScoreFromLeaderboard();
+            //getHighScoreFromLeaderboard();
             //ShowStats();
         }
     }
@@ -267,7 +267,7 @@ public class PlayerCollision : MonoBehaviour
 		}
 	}
 
-    private void getHighScoreFromLeaderboard()
+   /* private void getHighScoreFromLeaderboard()
     {
         if (PlayGamesPlatform.Instance.localUser.authenticated)
         {
@@ -303,7 +303,7 @@ public class PlayerCollision : MonoBehaviour
         if (PlayGamesPlatform.Instance.localUser.authenticated)
         {
 
-            /* PlayGamesPlatform.Instance.LoadScores(
+             PlayGamesPlatform.Instance.LoadScores(
                  leaderboards,
                      LeaderboardStart.PlayerCentered,
                      1,
@@ -319,7 +319,7 @@ public class PlayerCollision : MonoBehaviour
                       StatsMenu.SetActive(true);
                       PlayerScore.text =" Current highscore: " + data.PlayerScore.formattedValue;
                   //((PlayGamesPlatform)Social.Active).ShowLeaderboardUI(data.Id, LeaderboardTimeSpan.Weekly, null);
-              });*/
+              });
             
             StatsMenu.SetActive(true);
             PlayerGems.text = " Gems collected: " + countGems;
@@ -342,7 +342,7 @@ public class PlayerCollision : MonoBehaviour
         Time.timeScale = 1;
 
 
-    }
+    }*/
 
     // Update is called once per frame
     void OnTriggerEnter (Collider coll)
@@ -389,7 +389,7 @@ public class PlayerCollision : MonoBehaviour
 		if (coll.gameObject.CompareTag ("Coin")) {
             //StatsMenu.GetComponent<StatsMenu> ().SendScore (countGems);
             SendScore();
-            getHighScoreFromLeaderboard();
+            //getHighScoreFromLeaderboard();
 
         }
 

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.UI;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
@@ -92,3 +92,4 @@ public class GooglePlayLogin : MonoBehaviour {
         }
     }
 }
+*/
